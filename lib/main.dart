@@ -24,14 +24,17 @@ class MyApp extends StatelessWidget {
                 SizedBox(
                   height: 10,
                 ),
-                Text('Hamid Rahmani'),
+                Text('Hamid Rahmani' , style: TextStyle(color: Colors.white , fontSize: 25),),
                 SizedBox(
                   height: 10,
                 ),
-                Text('Flutter developer'),
-                VerticalDivider(
-                  thickness: 10,
+                Text('Flutter developer' , style: TextStyle(color: Colors.white , fontSize: 20),),
+                SizedBox(height: 10,),
+                Divider(
                   color: Colors.white,
+                  thickness: 2,
+                  indent: 10,
+                  endIndent: 10,
                 ),
                 SizedBox(
                   height: 30,
